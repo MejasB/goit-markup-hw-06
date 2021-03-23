@@ -329,19 +329,30 @@
         </button>
         <form class="submit-info">
             <p class="submit-info-desc">Оставьте свои данные, мы вам перезвоним</p>
-            <label for="user_tel">Имя</label>
-                <input type="text" name="username"  />
+            <label for="user_name" class="user-name">
+                Имя
+                <input class="input man" type="text" name="username"/>
 
-            <label for="user_tel" class="classification">Телефон</label>
-                <input type="tel" name="tel" id="user_tel" />
+        </label>
+            <label for="user_tel" class="user-tel">
+                Телефон
+                <input class="input phone" type="tel" name="tel" id="user_tel" />
+            </label>
 
-            <label for="user_email" class="classification">Почта</label>
-                <input type="email" name="email" id="user_email" />
-            <label class="classification">Комментарий</label>
-                <textarea name="feedback" rows="5" placeholder="Введите текст"></textarea>
+            <label for="user_email" class="user-email">
+                Почта
+                <input class="input email" type="email" name="email" id="user_email" />
+            </label>
+
+            <label class="form-field">Комментарий</label>
+                <textarea class="area-form" name="feedback" rows="5" placeholder="Введите текст"></textarea>
 
 
-            <button type="submit" class="submit-info">Submit</button>
+            <input id="user-term" type="checkbox" name="user-term" class="modal-form-term is-hidden">
+            <label class="modal-form-term-desc" for="user-term">Соглашаюсь с рассылкой и принимаю <a href="">Условия
+                        договора</a></label>   
+
+            <button class="submit-button-item" type="submit">Отправить</button>
         </form>
     </div>
 </div>

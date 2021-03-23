@@ -367,27 +367,122 @@ li {
     display: flex;
     font-size: normal;
     flex-direction: column;
-    width: 448px;
-    height: 342px;
     padding: 40px;
 
 }
 .submit-info-desc {
-    font-style: normal;
     font-weight: bold;
+    font-size: 20px;
     margin: 0;
     margin-bottom: 12px;
     line-height: 1.15;
-    text-align: center;
     letter-spacing: 0.03em;
-
     color: #212121;
 }
-
-textarea {
-    width: 448px;
-    resize: none;
+.input {
+    height: 40px;
+    width: 100%;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding-left: 50px;
 }
+.man {
+    background: url('../img/svg/man.svg');
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    background-position: 15px 10px;
+}
+.phone {
+    background: url('../img/svg/tel.svg');
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    background-position: 15px 10px;
+}
+.email {
+    background: url('../img/svg/mail.svg');
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    background-position: 15px 10px;
+}
+
+
+.form-field, .user-tel, .user-email, .user-name {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 1.16;
+    margin-bottom: 4px;
+    color: #757575;
+}
+.form-field, .user-tel, .user-email {
+    margin-top: 10px;
+}
+
+.area-form {
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    box-sizing: border-box;
+    border-radius: 4px;    
+    width: 100%;
+    height: 120px;
+    resize: none;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+.input:focus{
+    outline: none;
+    border-color: #2196F3;
+}
+
+.modal-form-term-desc {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;    
+    color: #757575;
+}
+
+.modal-form-term-desc::before {
+    display: block;
+    content: "";
+    width: 16px;
+    height: 15px;
+    outline: 1px solid #000000;
+    margin-right: 10px;
+}
+
+.modal-form-term:checked + .modal-form-term-desc::before {
+    border: 4px solid #ffffff;
+}
+.submit-button-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 1.87;
+        letter-spacing: 0.06em;
+        margin: 0 auto;
+        padding: 0;
+        width: 200px;
+        height: 50px;
+        color: #FFFFFF;
+        background: #188CE8;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+}
+
+
+
 
 
 
