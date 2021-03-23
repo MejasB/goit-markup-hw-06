@@ -299,15 +299,50 @@
         </li>
     </ul>
 </div>
+<div class="subscribe">
+    <p class="sub-name">Подпишитесь на рассылку</p>
+    <form action=""></form>
+    <ul class="mail-telegram">
+        <li class="subscribe-item">
+            <label for="user_email" ></label>
+                <input class="subscribe-items" type="email" name="email" id="user_email" placeholder="E-mail" />
+                
+        </li>
+        <li class="subscribe-item">
+            <button class="sub-button" type="submit" class="submit-info">
+                <p class="sub-name-item">Подписаться</p>
+                <svg class="tele-icon" width="89" height="46"><use href="./img/svg/sprite.svg#icon-tele-send"></use></svg>
+            </button>
+        </li>
+    </ul>
+</form>
+
+</div>
 </div>
 </footer>
-<div class="backdrop is-hidden" data-modal>
+<div class="backdrop " data-modal>
     <div class="modal">
         <button  type="button" class="close-button" data-modal-close>
             <svg class="model-close-btn">
                 <use href="./img/svg/sprite.svg#icon-close"></use>
             </svg>
         </button>
+        <form class="submit-info">
+            <p class="submit-info-desc">Оставьте свои данные, мы вам перезвоним</p>
+            <label for="user_tel">Имя</label>
+                <input type="text" name="username"  />
+
+            <label for="user_tel" class="classification">Телефон</label>
+                <input type="tel" name="tel" id="user_tel" />
+
+            <label for="user_email" class="classification">Почта</label>
+                <input type="email" name="email" id="user_email" />
+            <label class="classification">Комментарий</label>
+                <textarea name="feedback" rows="5" placeholder="Введите текст"></textarea>
+
+
+            <button type="submit" class="submit-info">Submit</button>
+        </form>
     </div>
 </div>
 </div>

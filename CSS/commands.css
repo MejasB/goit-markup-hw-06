@@ -159,3 +159,62 @@ color: #FFFFFF;
 .mail-one {
     margin-bottom: 9px;
 }
+.subscribe {
+    margin-left: 93px;
+}
+.sub-name {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 20px;    
+}
+.sub-name-item {
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+}
+
+
+.subscribe-items {
+    padding-left: 16px;
+    margin: 0;
+    width: 350px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: white;
+    background: transparent;
+}
+.mail-telegram {
+    display: flex;
+}
+.subscribe-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-button {
+    background: #2196F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 200px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin-left: 12px;
+}

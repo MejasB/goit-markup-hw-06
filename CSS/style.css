@@ -322,6 +322,8 @@ li {
 .footer-social-list-link:focus {
     background-color: #2196F3;
 }
+
+
 .backdrop {
     position: fixed;
     display: flex;
@@ -361,6 +363,33 @@ li {
     width: 18px;
     height: 18px;
 }
+.submit-info {
+    display: flex;
+    font-size: normal;
+    flex-direction: column;
+    width: 448px;
+    height: 342px;
+    padding: 40px;
+
+}
+.submit-info-desc {
+    font-style: normal;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 12px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+textarea {
+    width: 448px;
+    resize: none;
+}
+
+
 
 
 
